@@ -319,8 +319,15 @@
             </dependencies>
           <dependencyManagement>
                 <dependencies>
-                    
-            </dependencyManagement>
+                    <dependency>
+                        <groupId>org.jboss.weld</groupId>
+                        <artifactId>weld-core-bom</artifactId>
+                        <version>1.1.1.Final</version>
+                        <type>pom</type>
+                        <scope>import</scope>
+                    </dependency>
+                </dependencies>
+                </dependencyManagement>
         </profile>
     </profiles>
 </project>
